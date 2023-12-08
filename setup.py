@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "ElasticNet_model_e2e"
 AUTHOR_USER_NAME = "IbLahlou"
-SRC_REPO = "mlProject"
+SRC_REPO = "WineX"
 AUTHOR_EMAIL = "ibrahimlahlou021@gmail.com"
 
 
