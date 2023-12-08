@@ -9,7 +9,9 @@ project_name = "mlProject"
 
 
 list_of_files = [
+    #  keep the commit in the gitkeep file for the empty directories
     ".github/workflows/.gitkeep",
+    
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
