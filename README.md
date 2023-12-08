@@ -11,7 +11,7 @@
 
 ## Dependencies
 
-- Python 3.8
+- Python 3.8.17
     - MLflow
     - just see the requiements.txt file for details
 - Docker 

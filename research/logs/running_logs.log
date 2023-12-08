@@ -1,0 +1,4 @@
+[2023-12-09 00:09:07,907: WARNING: _metadata] Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+[2023-12-09 00:09:07,912: WARNING: _metadata] Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+[2023-12-09 00:09:07,937: WARNING: _metadata] Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+[2023-12-09 00:09:07,939: WARNING: _default] Authentication failed using Compute Engine authentication due to unavailable metadata server.
