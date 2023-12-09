@@ -113,3 +113,127 @@ Connection: close
 Transfer-Encoding: chunked
 
 
+[2023-12-09 00:40:36,864: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 00:40:36,873: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 00:40:36,908: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 00:40:36,914: INFO: common] created directory at: artifacts
+[2023-12-09 00:43:04,475: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 00:43:04,478: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 00:43:04,491: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 00:43:04,498: INFO: common] created directory at: artifacts
+[2023-12-09 00:43:04,499: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 00:43:08,028: INFO: 1421055969] artifacts/data_ingestion/data.zip download! with following info: 
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Set-Cookie: __Host-GAPS=1:pvqYG3swDq1rexPVr3yzcxgIPgvIig:yaFAmS51AYnux7CU; Expires=Sun, 07-Dec-2025 23:43:07 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+x-auto-login: realm=com.google&args=service%3Dcds%26continue%3Dhttps://storage.cloud.google.com/wine_data_buckets/winequality-data.zip
+x-ua-compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 08 Dec 2023 23:43:07 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: script-src 'report-sample' 'nonce-r4QVmeLw6vTqSbe6LmdYGQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Cross-Origin-Resource-Policy: same-site
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+
+[2023-12-09 00:45:58,538: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 00:45:58,546: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 00:45:58,563: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 00:45:58,572: INFO: common] created directory at: artifacts
+[2023-12-09 00:45:58,578: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 00:46:06,381: INFO: 2699783111] artifacts/data_ingestion/data.zip download! with following info: 
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Set-Cookie: __Host-GAPS=1:4mPow7JMDCtilK1BEaNVidpAYRBF5g:wrqMAHSb49RnizX-; Expires=Sun, 07-Dec-2025 23:46:05 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+x-auto-login: realm=com.google&args=service%3Dcds%26continue%3Dhttps://storage.cloud.google.com/wine_data_buckets/winequality-data.zip
+x-ua-compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 08 Dec 2023 23:46:05 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: script-src 'report-sample' 'nonce-CtEmaXMzAbhCuC2r3CJUVw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+
+[2023-12-09 00:48:25,819: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 00:48:25,827: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 00:48:25,839: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 00:48:25,844: INFO: common] created directory at: artifacts
+[2023-12-09 00:48:25,851: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 00:48:25,857: INFO: 1994971201] File already exists of size: ~ 170 KB
+[2023-12-09 00:50:48,561: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 00:50:48,568: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 00:50:48,579: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 00:50:48,589: INFO: common] created directory at: artifacts
+[2023-12-09 00:50:48,597: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 01:02:01,104: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 01:02:01,134: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 01:02:01,204: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 01:02:01,209: INFO: common] created directory at: artifacts
+[2023-12-09 01:02:01,219: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 01:03:25,903: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 01:03:25,909: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 01:03:25,919: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 01:03:25,924: INFO: common] created directory at: artifacts
+[2023-12-09 01:03:25,929: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 01:03:25,932: INFO: 3164325544] File does not exist at URL. Download from Google Cloud Storage instead.
+[2023-12-09 01:22:36,201: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 01:22:36,209: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 01:22:36,224: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 01:22:36,229: INFO: common] created directory at: artifacts
+[2023-12-09 01:22:36,235: INFO: common] created directory at: artifacts/data_ingestion
+[2023-12-09 01:22:38,229: INFO: 550461538] artifacts/data_ingestion/data.zip downloaded! with the following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D6CA:E2DAD:C0706A:C8B221:6573B34D
+Accept-Ranges: bytes
+Date: Sat, 09 Dec 2023 00:22:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs1050092-MRS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1702081357.377840,VS0,VE184
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2512f70f30fd65d1470a2f896a143c19f370460d
+Expires: Sat, 09 Dec 2023 00:27:37 GMT
+Source-Age: 0
+
+
