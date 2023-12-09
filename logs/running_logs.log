@@ -321,3 +321,7 @@ Source-Age: 0
 [2023-12-09 18:35:31,065: INFO: main] >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
+[2023-12-09 23:59:06,416: INFO: common] yaml file: config\config.yaml loaded successfully
+[2023-12-09 23:59:06,455: INFO: common] yaml file: params.yaml loaded successfully
+[2023-12-09 23:59:06,501: INFO: common] yaml file: schema.yaml loaded successfully
+[2023-12-09 23:59:06,512: INFO: common] created directory at: artifacts
