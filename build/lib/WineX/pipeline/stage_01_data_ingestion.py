@@ -1,6 +1,15 @@
 from WineX.config.configuration import ConfigurationManager
 from WineX.components.data_ingestion import DataIngestion
 from WineX import logger
+import os
+
+# Set your Google Cloud Storage credentials (replace with your actual credentials)
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "../../../credentials.json"
+
+# Replace with your Google Cloud Storage bucket and file path
+bucket_name = "wine_data_buckets"
+file_path = "winequality-data.zip"
+local_file_path = "../../../artifacts/data_ingestion/winequality-data.zip"
 
 
 

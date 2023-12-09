@@ -7,6 +7,8 @@ src/WineX.egg-info/dependency_links.txt
 src/WineX.egg-info/top_level.txt
 src/WineX/components/__init__.py
 src/WineX/components/data_ingestion.py
+src/WineX/components/data_transformation.py
+src/WineX/components/data_validation.py
 src/WineX/config/__init__.py
 src/WineX/config/configuration.py
 src/WineX/constants/__init__.py
@@ -14,5 +16,7 @@ src/WineX/entity/__init__.py
 src/WineX/entity/config_entity.py
 src/WineX/pipeline/__init__.py
 src/WineX/pipeline/stage_01_data_ingestion.py
+src/WineX/pipeline/stage_02_data_validation.py
+src/WineX/pipeline/stage_03_data_transformation.py
 src/WineX/utils/__init__.py
 src/WineX/utils/common.py
