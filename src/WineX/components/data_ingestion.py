@@ -5,11 +5,11 @@ import urllib.request as request
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
+from google.cloud import storage
 
 # Importing logger and utility function from WineX package
 from WineX import logger
 from WineX.utils.common import get_size
-
 from WineX.entity.config_entity import DataIngestionConfig
 
 
@@ -30,6 +30,21 @@ class DataIngestion:
         else:
             # Logging if the file already exists
             logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")
+
+    # Method to download using gcp
+    def download_from_gcs(self, bucket_name, file_path, local_file_path):
+        client = storage.Client()
+        bucket = client.bucket(bucket_name)
+        blob = bucket.blob(file_path)
+
+        try:
+            # Download the file to a local path
+            blob.download_to_filename(local_file_path)
+            logger.info(f"File downloaded from GCS to {local_file_path}")
+        except Exception as e:
+            logger.error(f"Error downloading file from GCS: {e}")
+
+
 
     # Method to extract the zip file
     def extract_zip_file(self):
