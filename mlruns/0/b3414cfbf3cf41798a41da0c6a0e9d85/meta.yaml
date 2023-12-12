@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/P52s/Documents/01_python_projects/ElasticNet_Model/mlruns/0/b3414cfbf3cf41798a41da0c6a0e9d85/artifacts
+end_time: 1702387201208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3414cfbf3cf41798a41da0c6a0e9d85
+run_name: loud-quail-339
+run_uuid: b3414cfbf3cf41798a41da0c6a0e9d85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702387185776
+status: 3
+tags: []
+user_id: ibrahim-lahlou

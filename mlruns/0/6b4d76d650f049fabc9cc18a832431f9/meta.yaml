@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/P52s/Documents/01_python_projects/ElasticNet_Model/mlruns/0/6b4d76d650f049fabc9cc18a832431f9/artifacts
+end_time: 1702386609387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b4d76d650f049fabc9cc18a832431f9
+run_name: unequaled-wren-301
+run_uuid: 6b4d76d650f049fabc9cc18a832431f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702386591950
+status: 3
+tags: []
+user_id: ibrahim-lahlou

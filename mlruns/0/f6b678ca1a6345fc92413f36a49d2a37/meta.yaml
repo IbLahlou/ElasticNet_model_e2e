@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/P52s/Documents/01_python_projects/ElasticNet_Model/mlruns/0/f6b678ca1a6345fc92413f36a49d2a37/artifacts
+end_time: 1702385901922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6b678ca1a6345fc92413f36a49d2a37
+run_name: chill-turtle-212
+run_uuid: f6b678ca1a6345fc92413f36a49d2a37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702385886337
+status: 3
+tags: []
+user_id: ibrahim-lahlou

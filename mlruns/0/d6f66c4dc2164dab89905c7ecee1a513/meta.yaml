@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/P52s/Documents/01_python_projects/ElasticNet_Model/mlruns/0/d6f66c4dc2164dab89905c7ecee1a513/artifacts
+end_time: 1702387241470
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6f66c4dc2164dab89905c7ecee1a513
+run_name: agreeable-carp-84
+run_uuid: d6f66c4dc2164dab89905c7ecee1a513
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702387226498
+status: 3
+tags: []
+user_id: ibrahim-lahlou
