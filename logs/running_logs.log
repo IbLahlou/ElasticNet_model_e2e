@@ -525,3 +525,288 @@ Source-Age: 0
 2023-12-13 01:17:52,428	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
 2023-12-13 01:17:52,445	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
 2023-12-13 01:17:53,045	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:53] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 09:35:34,392	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 09:35:34,394	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 09:35:37,716	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:35:37] "GET / HTTP/1.1" 200 -
+2023-12-13 09:35:37,934	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:35:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 09:35:37,989	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:35:37] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 09:35:38,181	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:35:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 09:54:47,314	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 09:54:47,320	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 09:54:50,088	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:54:50] "GET / HTTP/1.1" 200 -
+2023-12-13 09:54:50,327	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:54:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 09:54:50,339	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:54:50] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 09:54:50,619	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:54:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 09:55:08,852	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 74, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+AttributeError: module 'WineX.utils.data_handler' has no attribute 'add_feedback'
+2023-12-13 09:55:08,865	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:55:08] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 09:55:09,197	INFO	_internal	127.0.0.1 - - [13/Dec/2023 09:55:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-13 10:03:11,014	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:03:11,017	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:03:14,149	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:03:14] "GET / HTTP/1.1" 200 -
+2023-12-13 10:03:14,352	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:03:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:03:14,391	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:03:14] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:03:14,581	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:03:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:03:24,450	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('./aritficats/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'aritficats\feedback'
+2023-12-13 10:03:24,602	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:03:24] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:05:59,838	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:05:59,839	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:06:02,220	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:06:02] "GET / HTTP/1.1" 200 -
+2023-12-13 10:06:02,453	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:06:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:06:02,527	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:06:02] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:06:02,705	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:06:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:06:17,107	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('./aritficats/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'aritficats\feedback'
+2023-12-13 10:06:17,142	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:06:17] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:07:14,835	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:07:14,838	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:07:17,524	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:07:17] "GET / HTTP/1.1" 200 -
+2023-12-13 10:07:17,742	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:07:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:07:17,777	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:07:17] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:07:17,980	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:07:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:07:30,025	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('./aritficats/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'aritficats\feedback'
+2023-12-13 10:07:30,059	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:07:30] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:08:11,294	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:08:11,298	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:08:13,640	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:08:13] "GET / HTTP/1.1" 200 -
+2023-12-13 10:08:13,874	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:08:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:08:13,894	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:08:13] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:08:14,068	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:08:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:08:24,497	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('./aritficats/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'aritficats\feedback'
+2023-12-13 10:08:24,528	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:08:24] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:09:02,341	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:09:02,345	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:09:04,517	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:09:04] "GET / HTTP/1.1" 200 -
+2023-12-13 10:09:04,734	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:09:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:09:04,747	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:09:04] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:09:04,951	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:09:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:09:16,843	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('./aritficats/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'aritficats\feedback'
+2023-12-13 10:09:16,863	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:09:16] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:10:15,215	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:10:15,218	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:10:17,832	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:10:17] "GET / HTTP/1.1" 200 -
+2023-12-13 10:10:18,077	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:10:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:10:18,166	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:10:18] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:10:18,329	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:10:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:10:34,031	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('../../artifacts/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '..\..\artifacts\feedback'
+2023-12-13 10:10:34,066	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:10:34] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:11:03,389	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:11:03,389	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:11:06,041	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:06] "GET / HTTP/1.1" 200 -
+2023-12-13 10:11:06,283	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:11:06,305	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:06] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:11:06,480	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:11:18,778	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:18] "GET / HTTP/1.1" 200 -
+2023-12-13 10:11:18,962	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:11:19,004	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:19] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:11:19,025	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:11:19,657	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:19] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:11:37,585	ERROR	app	Exception on /submit-feedback [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 76, in submit_feedback
+    data_handler.add_feedback(name, email,feedback,satisfied)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\utils\DataHandler.py", line 13, in add_feedback
+    self.feedback_df.to_csv('../../artifacts/feedback/feedback_data.csv', index=False)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '..\..\artifacts\feedback'
+2023-12-13 10:11:37,620	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:11:37] "[35m[1mPOST /submit-feedback HTTP/1.1[0m" 500 -
+2023-12-13 10:12:31,949	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 10:12:31,953	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 10:12:35,135	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:35] "GET / HTTP/1.1" 200 -
+2023-12-13 10:12:35,335	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:12:35,423	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:35] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:12:35,591	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:12:43,288	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:43] "POST /submit-feedback HTTP/1.1" 200 -
+2023-12-13 10:12:43,451	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:12:43,496	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:43] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:12:43,548	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:12:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:23:09,759	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:09] "POST /submit-feedback HTTP/1.1" 200 -
+2023-12-13 10:23:09,916	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:23:09,940	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:09] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:23:10,109	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 10:23:10,972	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:10] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:23:34,863	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:34] "POST /predict HTTP/1.1" 200 -
+2023-12-13 10:23:35,036	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 10:23:35,051	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:35] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 10:23:35,090	INFO	_internal	127.0.0.1 - - [13/Dec/2023 10:23:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

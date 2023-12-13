@@ -24,5 +24,6 @@ src/WineX/pipeline/stage_02_data_validation.py
 src/WineX/pipeline/stage_03_data_transformation.py
 src/WineX/pipeline/stage_04_model_trainer.py
 src/WineX/pipeline/stage_05_model_evaluation.py
+src/WineX/utils/DataHandler.py
 src/WineX/utils/__init__.py
 src/WineX/utils/common.py
