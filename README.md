@@ -14,6 +14,7 @@
 - Python 3.8.17
     - MLflow
     - just see the requiements.txt file for details
-- Docker 
+- Docker
+- Dagshub
 - Apache Airflow
 - Google Cloud Platform
