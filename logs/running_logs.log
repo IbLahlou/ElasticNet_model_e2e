@@ -208,3 +208,320 @@ x==========x
 2023-12-12 14:20:25,796	INFO	common	created directory at: artifacts/model_evaluation
 2023-12-12 14:20:26,756	INFO	common	json file saved at: artifacts\model_evaluation\metrics.json
 2023-12-12 14:20:41,491	INFO	main	>>>>>> stage Model evaluation stage completed <<<<<<
+2023-12-13 00:26:33,477	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:26:33,482	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:27:57,425	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:27:57,427	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:30:30,097	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:30:30,101	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:30:33,021	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:30:33] "GET / HTTP/1.1" 200 -
+2023-12-13 00:30:33,260	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:30:33] "GET /static/image/cad.png HTTP/1.1" 200 -
+2023-12-13 00:30:33,271	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:30:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-12-13 00:30:33,532	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:30:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2023-12-13 00:30:34,436	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:30:34] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:47:12,177	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:47:12,177	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:47:15,133	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:47:15] "GET / HTTP/1.1" 200 -
+2023-12-13 00:47:15,407	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:47:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:47:15,422	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:47:15] "GET /static/image/cad.png HTTP/1.1" 200 -
+2023-12-13 00:47:15,584	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:47:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:48:13,104	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:48:13,104	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:48:15,693	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:48:15] "GET / HTTP/1.1" 200 -
+2023-12-13 00:48:15,888	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:48:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:48:15,907	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:48:15] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:48:16,062	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:48:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:49:04,105	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:49:04,105	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:49:07,288	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:07] "GET / HTTP/1.1" 200 -
+2023-12-13 00:49:07,442	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:49:07,478	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:07] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:49:07,698	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:49:15,704	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:15] "GET / HTTP/1.1" 200 -
+2023-12-13 00:49:15,872	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:49:15,888	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:15] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:49:15,892	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:49:16,479	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:16] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:49:58,116	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:58] "POST /predict HTTP/1.1" 200 -
+2023-12-13 00:49:58,334	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:49:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-13 00:50:59,422	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:50:59,422	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:51:01,420	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:01] "GET / HTTP/1.1" 200 -
+2023-12-13 00:51:01,590	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:51:01,627	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:01] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:51:01,796	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:51:08,056	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:08] "POST /predict HTTP/1.1" 200 -
+2023-12-13 00:51:13,828	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:51:13] "POST /predict HTTP/1.1" 200 -
+2023-12-13 00:52:23,277	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:52:23,277	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:52:25,403	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:52:25] "GET / HTTP/1.1" 200 -
+2023-12-13 00:52:25,563	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:52:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:52:25,604	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:52:25] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:52:25,774	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:52:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:52:32,013	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:52:32] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2023-12-13 00:53:26,904	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:53:26] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2023-12-13 00:56:15,392	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:56:15,394	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:56:17,588	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:17] "GET / HTTP/1.1" 200 -
+2023-12-13 00:56:17,742	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:56:17,773	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:17] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:56:17,967	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:56:36,444	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:56:36,452	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:56:38,693	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:38] "GET / HTTP/1.1" 200 -
+2023-12-13 00:56:38,887	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:56:38,937	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:38] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:56:39,074	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:56:45,906	ERROR	app	Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 42, in index
+    obj = PredictionPipeline()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\pipeline\prediction.py", line 10, in __init__
+    self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\model_trainer\\model.joblib'
+2023-12-13 00:56:45,918	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:56:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-12-13 00:57:16,356	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:57:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:58:50,675	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:58:50,675	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:58:52,333	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:58:52] "GET / HTTP/1.1" 200 -
+2023-12-13 00:58:52,538	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:58:52] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:58:52,556	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:58:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-12-13 00:58:52,683	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:58:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 00:59:24,445	ERROR	app	Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 42, in index
+    obj = PredictionPipeline()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\pipeline\prediction.py", line 10, in __init__
+    self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\model_trainer\\model.joblib'
+2023-12-13 00:59:24,462	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:59:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-12-13 00:59:56,636	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 00:59:56,639	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 00:59:58,953	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:59:58] "GET / HTTP/1.1" 200 -
+2023-12-13 00:59:59,114	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:59:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 00:59:59,162	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:59:59] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 00:59:59,339	INFO	_internal	127.0.0.1 - - [13/Dec/2023 00:59:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:00:05,748	ERROR	app	Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\P52s\Documents\01_python_projects\ElasticNet_Model\app.py", line 42, in index
+    obj = PredictionPipeline()
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\WineX\pipeline\prediction.py", line 10, in __init__
+    self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
+  File "C:\Users\P52s\.conda\envs\cnn\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\model_trainer\\model.joblib'
+2023-12-13 01:00:05,762	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:00:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-12-13 01:01:51,842	INFO	main	>>>>>> stage Data Ingestion stage started <<<<<<
+2023-12-13 01:01:51,886	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:01:51,913	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:01:51,934	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:01:51,942	INFO	common	created directory at: artifacts
+2023-12-13 01:01:51,942	INFO	common	created directory at: artifacts/data_ingestion
+2023-12-13 01:01:54,009	INFO	data_ingestion	artifacts/data_ingestion/winequality-data.zip downloaded! with the following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 40B6:26A852:5B3A7:60322:6578F471
+Accept-Ranges: bytes
+Date: Wed, 13 Dec 2023 00:01:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lis1490052-LIS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1702425714.584813,VS0,VE375
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0f6a4c21518da97b06c18721e69e8f2a804609e1
+Expires: Wed, 13 Dec 2023 00:06:53 GMT
+Source-Age: 0
+
+
+2023-12-13 01:01:54,057	INFO	main	>>>>>> stage Data Ingestion stage completed <<<<<<
+2023-12-13 01:01:54,057	INFO	main	>>>>>> stage Data Validation stage started <<<<<<
+2023-12-13 01:01:54,074	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:01:54,084	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:01:54,092	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:01:54,099	INFO	common	created directory at: artifacts
+2023-12-13 01:01:54,099	INFO	common	created directory at: artifacts/data_validation
+2023-12-13 01:01:54,199	INFO	main	>>>>>> stage Data Validation stage completed <<<<<<
+2023-12-13 01:01:54,200	INFO	main	>>>>>> stage Data Transformation stage started <<<<<<
+2023-12-13 01:01:54,232	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:01:54,232	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:01:54,252	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:01:54,252	INFO	common	created directory at: artifacts
+2023-12-13 01:01:54,257	INFO	common	created directory at: artifacts/data_transformation
+2023-12-13 01:01:54,363	INFO	data_transformation	Splited data into training and test sets
+2023-12-13 01:01:54,363	INFO	data_transformation	(1199, 12)
+2023-12-13 01:01:54,370	INFO	data_transformation	(400, 12)
+2023-12-13 01:01:54,380	INFO	main	>>>>>> stage Data Transformation stage completed <<<<<<
+2023-12-13 01:01:54,382	INFO	main	>>>>>> stage Model Trainer stage started <<<<<<
+2023-12-13 01:01:54,398	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:01:54,402	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:01:54,412	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:01:54,421	INFO	common	created directory at: artifacts
+2023-12-13 01:01:54,425	INFO	common	created directory at: artifacts/model_trainer
+2023-12-13 01:01:54,542	INFO	main	>>>>>> stage Model Trainer stage completed <<<<<<
+2023-12-13 01:01:54,542	INFO	main	>>>>>> stage Model evaluation stage started <<<<<<
+2023-12-13 01:01:54,557	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:01:54,564	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:01:54,575	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:01:54,575	INFO	common	created directory at: artifacts
+2023-12-13 01:01:54,582	INFO	common	created directory at: artifacts/model_evaluation
+2023-12-13 01:01:55,732	INFO	common	json file saved at: artifacts\model_evaluation\metrics.json
+2023-12-13 01:02:15,971	INFO	main	>>>>>> stage Model evaluation stage completed <<<<<<
+2023-12-13 01:02:16,797	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:02:16] "GET /train HTTP/1.1" 200 -
+2023-12-13 01:02:53,368	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:02:53] "GET / HTTP/1.1" 200 -
+2023-12-13 01:02:53,496	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:02:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:02:53,522	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:02:53] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:02:53,557	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:02:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:03:00,318	INFO	main	>>>>>> stage Data Ingestion stage started <<<<<<
+2023-12-13 01:03:00,345	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:03:00,351	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:03:00,362	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:03:00,367	INFO	common	created directory at: artifacts
+2023-12-13 01:03:00,367	INFO	common	created directory at: artifacts/data_ingestion
+2023-12-13 01:03:00,367	INFO	data_ingestion	File already exists of size: ~ 23 KB
+2023-12-13 01:03:00,384	INFO	main	>>>>>> stage Data Ingestion stage completed <<<<<<
+2023-12-13 01:03:00,385	INFO	main	>>>>>> stage Data Validation stage started <<<<<<
+2023-12-13 01:03:00,417	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:03:00,422	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:03:00,437	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:03:00,437	INFO	common	created directory at: artifacts
+2023-12-13 01:03:00,443	INFO	common	created directory at: artifacts/data_validation
+2023-12-13 01:03:00,502	INFO	main	>>>>>> stage Data Validation stage completed <<<<<<
+2023-12-13 01:03:00,502	INFO	main	>>>>>> stage Data Transformation stage started <<<<<<
+2023-12-13 01:03:00,546	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:03:00,546	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:03:00,555	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:03:00,561	INFO	common	created directory at: artifacts
+2023-12-13 01:03:00,562	INFO	common	created directory at: artifacts/data_transformation
+2023-12-13 01:03:00,652	INFO	data_transformation	Splited data into training and test sets
+2023-12-13 01:03:00,652	INFO	data_transformation	(1199, 12)
+2023-12-13 01:03:00,652	INFO	data_transformation	(400, 12)
+2023-12-13 01:03:00,652	INFO	main	>>>>>> stage Data Transformation stage completed <<<<<<
+2023-12-13 01:03:00,657	INFO	main	>>>>>> stage Model Trainer stage started <<<<<<
+2023-12-13 01:03:00,678	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:03:00,682	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:03:00,694	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:03:00,694	INFO	common	created directory at: artifacts
+2023-12-13 01:03:00,694	INFO	common	created directory at: artifacts/model_trainer
+2023-12-13 01:03:00,794	INFO	main	>>>>>> stage Model Trainer stage completed <<<<<<
+2023-12-13 01:03:00,794	INFO	main	>>>>>> stage Model evaluation stage started <<<<<<
+2023-12-13 01:03:00,808	INFO	common	yaml file: config\config.yaml loaded successfully
+2023-12-13 01:03:00,812	INFO	common	yaml file: params.yaml loaded successfully
+2023-12-13 01:03:00,816	INFO	common	yaml file: schema.yaml loaded successfully
+2023-12-13 01:03:00,824	INFO	common	created directory at: artifacts
+2023-12-13 01:03:00,824	INFO	common	created directory at: artifacts/model_evaluation
+2023-12-13 01:03:01,763	INFO	common	json file saved at: artifacts\model_evaluation\metrics.json
+2023-12-13 01:03:02,436	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:03:02] "POST /predict HTTP/1.1" 200 -
+2023-12-13 01:03:02,542	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:03:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:03:02,601	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:03:02] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:03:02,617	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:03:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:03:16,186	INFO	main	>>>>>> stage Model evaluation stage completed <<<<<<
+2023-12-13 01:03:16,905	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:03:16] "GET /train HTTP/1.1" 200 -
+2023-12-13 01:07:46,929	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 01:07:46,929	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 01:07:49,106	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:07:49] "GET / HTTP/1.1" 200 -
+2023-12-13 01:07:49,318	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:07:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:07:49,343	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:07:49] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:07:49,503	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:07:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:09:10,833	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 01:09:10,840	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 01:09:12,974	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:12] "GET / HTTP/1.1" 200 -
+2023-12-13 01:09:13,146	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:09:13,197	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:13] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:09:13,350	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:09:23,636	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:23] "POST /predict HTTP/1.1" 200 -
+2023-12-13 01:09:23,795	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:09:23,832	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:23] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:09:23,846	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:09:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:10:19,961	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 01:10:19,963	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 01:10:22,127	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:22] "GET / HTTP/1.1" 200 -
+2023-12-13 01:10:22,377	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:10:22,400	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:22] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:10:22,556	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:10:32,227	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:32] "POST /predict HTTP/1.1" 200 -
+2023-12-13 01:10:32,363	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:10:32,411	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:32] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:10:32,425	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:10:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:15:49,646	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 01:15:49,646	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 01:15:53,264	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:15:53] "GET / HTTP/1.1" 200 -
+2023-12-13 01:15:53,507	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:15:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:15:53,523	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:15:53] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:15:53,707	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:15:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:16:21,718	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:16:21] "GET / HTTP/1.1" 200 -
+2023-12-13 01:16:21,863	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:16:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:16:21,874	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:16:21] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:16:21,883	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:16:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:16:22,496	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:16:22] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:17:41,793	INFO	_internal	[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 01:17:41,797	INFO	_internal	[33mPress CTRL+C to quit[0m
+2023-12-13 01:17:44,263	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:44] "GET / HTTP/1.1" 200 -
+2023-12-13 01:17:44,533	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:17:44,544	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:44] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:17:44,693	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:17:46,680	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:46] "GET / HTTP/1.1" 200 -
+2023-12-13 01:17:46,833	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:17:46,847	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:46] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:17:46,867	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:17:47,439	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:47] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:17:52,283	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "GET / HTTP/1.1" 200 -
+2023-12-13 01:17:52,413	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-12-13 01:17:52,428	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
+2023-12-13 01:17:52,445	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2023-12-13 01:17:53,045	INFO	_internal	127.0.0.1 - - [13/Dec/2023 01:17:53] "[36mGET /static/image/cad.png HTTP/1.1[0m" 304 -
