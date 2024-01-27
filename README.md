@@ -15,6 +15,6 @@
     - MLflow
     - just see the requiements.txt file for details
 - Docker
-- Dagshub
+- Dagshub Account
 - Apache Airflow
 - Google Cloud Platform
